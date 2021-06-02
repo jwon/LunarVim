@@ -9,7 +9,7 @@ an executable
 
 -- general
 O.auto_complete = true
-O.colorscheme = 'lunar'
+O.colorscheme = 'nord'
 O.auto_close_tree = 0
 O.wrap_lines = false
 O.timeoutlen = 100
@@ -17,8 +17,8 @@ O.document_highlight = true
 O.extras = true
 
 -- dashboard
--- O.dashboard.custom_header = {""}
--- O.dashboard.footer = {""}
+O.dashboard.custom_header = {""}
+O.dashboard.footer = {""}
 
 -- if you don't want all the parsers change this to a table of the ones you want
 O.treesitter.ensure_installed = "all"
